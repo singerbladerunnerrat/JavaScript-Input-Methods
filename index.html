@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			"use strict";
+			function MyThing(event)
+			{
+				console.log(event);
+				/*
+				if(event.keyCode == 37)
+				{
+					alert('Left was pressed');
+				}
+				else if(event.keyCode == 39)
+				{
+					alert('Right was pressed');
+				}
+				*/
+			}
+			document.addEventListener('keydown', MyThing);
+		</script>
+	</body>
+</html>
